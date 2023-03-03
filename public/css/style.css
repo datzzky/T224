@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    position: fixed;
+}
+.header, .footer{
+    background-color: rgb(12, 206, 212);
+    color: rgb(17, 17, 17);
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+}
+div.header{
+    top: 0%;
+    position: fixed;
+    padding-bottom: 1%;
+    height: 10%;
+    font-size: 120%;
+}
+div.footer{
+    height: 6%;
+    font-size: 12px;
+    bottom: 0%;
+}
+.redirect{
+    color: white;
+    background-color: green;
+    font-size: x-large;
+}
+.home, .redirect{
+    position: fixed;
+    top:4%;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+.home{
+    background-image: url('../images/home.png');
+    background-size: cover;
+}
+.redirect:active, .home:active{
+    transform: scale(.75);
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 20%;
+}
+li{
+    float: left;
+    padding-left: 5%;
+}
+.libtn{
+    margin-top: 3%;
+}
+
+
+/*form*/
+form{
+    margin-left: 20%;
+}
+.form{
+    margin-top: 6%;
+    width: 100%;
+    height: 81%;
+    position: fixed;
+}
+.formField, .error{
+    margin-top: 2%;
+    float: right;
+    display: inline;
+    height: 100%;
+    width: 50%;
+
+}
+/*input box*/
+input, select {
+    padding: 1px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+input::placeholder {
+    color: rgb(17, 17, 17);
+}
+.submit{
+    background-color: rgb(7, 105, 150);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: large;
+}
+.submit:active{
+    transform: scale(.75);
+}
+/*container and table*/
+.content{
+    margin-top: 6%;
+    width: 100%;
+    height: 81%;
+    position: fixed;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+table,thead {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    height: auto;
+    width: inherit;
+  }
+
+td, th {
+    border: 1px solid #88acc0;
+    text-align: center;
+    padding: 8px;
+  }
+  .col-name{
+    text-align: left;
+  }
+
+  .update,.delete{
+    border-style: none;
+    opacity: 90%;
+  }
+
+  .delete:active, .update:active{
+    transform: scale(.75);
+}
+.updt, .del{
+    height: 20px;
+}
